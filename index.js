@@ -20,7 +20,7 @@ const autoCompleteConfig = {
     async fetchData(searchTerm) {
             //await - used to await the process as API will take few seconds to provide response
                      //axios.get('URL', {object}) -> object will append with url.
-    let response = await axios.get('http://www.omdbapi.com/', {
+    let response = await axios.get('https://www.omdbapi.com/', {
         params:{
             apikey: '118acc94',
             s: searchTerm
