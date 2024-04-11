@@ -64,7 +64,7 @@ createAutoComplete({
 
 let leftMovie, rightMovie;
  const onMovieSelect = async(movie, summaryElement, side) => {
-    let response =  await axios.get('http://www.omdbapi.com/', {
+    let response =  await axios.get('https://www.omdbapi.com/', {
         params:{
             apikey: '118acc94',
             i: movie.imdbID
